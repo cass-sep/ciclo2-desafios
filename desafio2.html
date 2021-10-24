@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="desafio2.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="desafio2.css">
+    <title>TI-Start Desafio 2</title>
+</head>
+<style>
+</style>
+<body>
+    <header id="topo" class="">
+        <div id="topo-div" class="flex center">
+            <h1 id="titulo">ME ACHA!</h1>
+            <h2 id="subtitulo">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        </div>
+    </header>
+    <div id="globo-box">
+        <span id="globo-img" class="material-icons">travel_explore</span>
+    </div>
+    <form id="form" action="">
+        <fieldset id="borda">
+            <label for="">CEP:</label>
+            <input id="ct-cep" class="input-texto" type="text">
+            <label for="">RUA:</label>
+            <input id="logradouro" class="input-texto fete" type="text" disabled>
+            <label for="">BAIRRO:</label>
+            <input id="bairro" class="input-texto fete" type="text" disabled>
+            <label for="">CIDADE:</label>
+            <input id="localidade" class="input-texto fete" type="text" disabled>
+            <label for="">ESTADO:</label>
+            <input id="uf" class="input-texto fete" type="text" disabled>
+            <div id="botao-div" class="flex center">
+            <input id="botao-input" type="button" value="BUSCAR">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
